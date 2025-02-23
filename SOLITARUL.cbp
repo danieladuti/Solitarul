@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SOLITARUL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SOLITARUL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SOLITARUL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lwinmm" />
+		</Linker>
+		<Unit filename="5.txt" />
+		<Unit filename="Tabla5.txt" />
+		<Unit filename="bk2.jpg" />
+		<Unit filename="cronometru.jpg" />
+		<Unit filename="eroare_mutare.wav" />
+		<Unit filename="game_over.wav" />
+		<Unit filename="main.cpp" />
+		<Unit filename="pion.wav" />
+		<Unit filename="provocare1.jpg" />
+		<Unit filename="provocare2.jpg" />
+		<Unit filename="reguli.jpg" />
+		<Unit filename="solo.wav" />
+		<Unit filename="win.wav" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

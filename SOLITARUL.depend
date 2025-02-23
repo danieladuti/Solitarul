@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1705570887 source:e:\fii uaic\anul 1\semestrul 1\ip\proiect\solitarul\main.cpp
+	<iostream>
+	<winbgim.h>
+	<mmsystem.h>
+	<graphics.h>
+	<windows.h>
+	<time.h>
+	<fstream>
+
